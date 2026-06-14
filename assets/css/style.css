@@ -1,0 +1,83 @@
+.hero {
+
+    background:
+        linear-gradient(
+            rgba(0,0,0,.6),
+            rgba(0,0,0,.6)
+        ),
+
+        url("../img/banner-industria.jpg");
+
+    background-size: cover;
+
+    color: white;
+
+    padding: 120px 0;
+}
+
+.card {
+
+    transition: .3s;
+}
+
+.card:hover {
+
+    transform: translateY(-8px);
+}
+
+body {
+
+    margin: 0;
+}
+
+.conteudo {
+
+    margin-top: 80px;
+
+    margin-left: 250px;
+
+    padding: 20px;
+}
+
+
+
+
+
+.sidebar {
+
+    position: fixed;
+
+    top: 0;
+
+    left: 0;
+
+    width: 250px;
+
+    height: 100vh;
+
+    background: #1e293b;
+
+    color: white;
+}
+
+.sidebar ul {
+
+    list-style: none;
+
+    padding: 20px;
+}
+
+.sidebar li {
+
+    margin: 20px 0;
+}
+
+.sidebar a {
+
+    color: white;
+
+    text-decoration: none;
+}
+
+
+
